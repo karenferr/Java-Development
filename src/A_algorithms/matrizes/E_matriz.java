@@ -2,7 +2,7 @@ package A_algorithms.matrizes;
 
 import java.util.Scanner;
 
-public class matriz05 {
+public class E_matriz {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

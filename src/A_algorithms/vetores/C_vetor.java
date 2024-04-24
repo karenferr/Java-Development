@@ -2,7 +2,7 @@ package A_algorithms.vetores;
 
 import java.util.Scanner; 
 
-public class vetor03 { 
+public class C_vetor {
 
     public static void main(String[] args) { 
         Scanner sc = new Scanner(System.in); 

@@ -2,7 +2,7 @@ package A_algorithms;
 
 import java.util.Scanner;
 
-public class A_resolvido01 {
+public class A_resolvido {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

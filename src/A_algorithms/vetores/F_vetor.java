@@ -5,7 +5,7 @@ package A_algorithms.vetores;
 import java.util.Scanner;
 
 
-public class vetor07 {
+public class F_vetor {
 
     
     public static void main(String[] args) {

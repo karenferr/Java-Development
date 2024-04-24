@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 
 
-public class matriz06 {
+public class H_matriz {
 
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);

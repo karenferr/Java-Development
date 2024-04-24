@@ -2,7 +2,7 @@ package A_algorithms.matrizes;
 
 import java.util.Scanner;
 
-public class matriz04 {
+public class B_matriz {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -17,12 +17,15 @@ public class matriz04 {
 			}
 		}
 		
-		int soma =0;
+		
 		for (int linha = 0; linha < N; linha++) {
-			for (int coluna = linha+1; coluna < N; coluna++) {
+			int soma = 0;
+			for (int coluna = 0; coluna < N; coluna++) {
 				soma = soma + matriz[linha][coluna];
 			}
+			System.out.println(soma);
 		}
+	
 		sc.close();
 
 	}

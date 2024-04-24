@@ -6,11 +6,11 @@ import java.util.Scanner;
 
          Scanner sc = new Scanner (System.in);
 
-         double [] X = new double[10];
+         int [] X = new int[10];
 
          for (int i=0; i<X.length; i++) {
 
-             X[i] = sc.nextDouble();
+             X[i] = sc.nextInt();
 
              if (X[i]<=0) {
                  X[i] = 1;

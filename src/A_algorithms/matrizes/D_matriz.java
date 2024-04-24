@@ -2,7 +2,7 @@ package A_algorithms.matrizes;
 
 import java.util.Scanner;
 
-public class matriz03 {
+public class D_matriz {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -16,18 +16,13 @@ public class matriz03 {
 				matriz[linha][coluna] = sc.nextInt();
 			}
 		}
-
 		
+		int soma =0;
 		for (int linha = 0; linha < N; linha++) {
-			int maior = matriz[linha][0];
-			for (int coluna = 1; coluna < N; coluna++) {
-				if (matriz[linha][coluna] > maior) {
-					maior = matriz[linha][coluna];
-				}
+			for (int coluna = linha+1; coluna < N; coluna++) {
+				soma = soma + matriz[linha][coluna];
 			}
-			System.out.println(maior);
 		}
-		
 		sc.close();
 
 	}

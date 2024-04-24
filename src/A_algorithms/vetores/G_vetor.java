@@ -3,7 +3,7 @@ package A_algorithms.vetores;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class vetor08 {
+public class G_vetor {
 
 
     public static void main(String[] args) {
