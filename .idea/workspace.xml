@@ -280,11 +280,17 @@
           <line>4</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A_algorithms/beeCrowd/b1150.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="10" language="JAVA" />
+        <watch expression="3" language="JAVA" />
         <watch expression="10" language="JAVA" />
       </configuration>
     </watches-manager>
