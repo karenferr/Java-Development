@@ -299,4 +299,9 @@
     <expand />
     <select />
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java_development$b1158.ic" NAME="b1158 Coverage Results" MODIFIED="1717716402204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>A_algorithms.beeCrowd.*</FILTER>
+    </SUITE>
+  </component>
 </project>
