@@ -3,7 +3,7 @@
   <component name="CompilerConfiguration">
     <excludeFromCompile>
       <file url="file://$PROJECT_DIR$/src/datastructures/arrays/aula02/Vetor.java" />
-      <file url="file://$PROJECT_DIR$/src/beeCrowd/b2717.java" />
+      <file url="file://$PROJECT_DIR$/src/beeCrowd/teste.java" />
     </excludeFromCompile>
   </component>
 </project>

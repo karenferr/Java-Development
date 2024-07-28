@@ -26,10 +26,10 @@ public class b1118 {
 			double media = (nota1 + nota2) / 2.0;
 			System.out.printf("media = %.2f%n", media);
 			
-			System.out.println("novo calculo (1-sim 2-nao)");
+			System.out.println("b2717 calculo (1-sim 2-nao)");
 			novoCalculo = sc.nextInt();
 			while (novoCalculo != 1 && novoCalculo != 2) {
-				System.out.println("novo calculo (1-sim 2-nao)");
+				System.out.println("b2717 calculo (1-sim 2-nao)");
 				novoCalculo = sc.nextInt();
 			}
 		}

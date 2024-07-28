@@ -2,12 +2,12 @@ package B_POO.A_concessionaria;
 
 public class Principal {
     public static void main(String[] args) {
-        Pessoa eu = new Pessoa(); // cria um novo objeto (eu) do tipo pessoa
+        Pessoa eu = new Pessoa(); // cria um b2717 objeto (eu) do tipo pessoa
         eu.nome = "Karen"; // objeto da classe Pessoa
         eu.cpf = "000.111.222-33";
         eu.anoNascimento = 1999;
 
-        Carro meuCarro = new Carro (); //instanciando um novo carro atribuido a variavel meuCarro do tipo Carro
+        Carro meuCarro = new Carro (); //instanciando um b2717 carro atribuido a variavel meuCarro do tipo Carro
         meuCarro.anoFabricacao = 2021;
         meuCarro.cor = "Preto";
         meuCarro.fabricante = "Honda";
