@@ -22,8 +22,8 @@ public class b1188 {
             for (int j = 12-i; j < i; j++) {
                 soma += matriz[i][j];
                 contador++;
-            }
-        }
+            } //coluna
+        }//linha
 
         if (O == 'S') {
             System.out.printf("%.1f\n", soma);

@@ -2,7 +2,7 @@ package A_algorithms.estruturaCondicional;
 
 import java.util.Scanner;
 
-//nao esqueca de mudar o nome da classe para Main
+//nao esqueca de mudar o nome da classe para b1190
 public class b1049 {
 
 	public static void main(String[] args) {
