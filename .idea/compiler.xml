@@ -4,6 +4,7 @@
     <excludeFromCompile>
       <file url="file://$PROJECT_DIR$/src/datastructures/arrays/aula02/Vetor.java" />
       <file url="file://$PROJECT_DIR$/src/beeCrowd/teste.java" />
+      <file url="file://$PROJECT_DIR$/src/B_POO/D_portaria/CadastroPortaria.java" />
     </excludeFromCompile>
   </component>
 </project>
