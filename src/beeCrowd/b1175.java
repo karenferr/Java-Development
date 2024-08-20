@@ -11,13 +11,12 @@ public class b1175 {
 
         for (int i = 0; i < N.length; i++) {
             N[i] = sc.nextInt();
-            N[i] = N[i] + N[i] -
         }
 
         for (int i = 0; i<10; i++) {
-            int temp = N[i]; // Armazena o valor do elemento N[i] em uma variável temporária temp
+            int vetor = N[i]; // Armazena o valor do elemento N[i] em uma variável temporária vetor
             N[i] = N[19 - i]; // Substitui o valor de N[i] pelo valor correspondente na posição oposta, que é N[19 - i]
-            N[19 - i] = temp; // substitui o valor de N[19 - i] (ou seja, o valor do elemento na posição oposta) pelo valor armazenado na variável temp
+            N[19 - i] = vetor; // substitui o valor de N[19 - i] (ou seja, o valor do elemento na posição oposta) pelo valor armazenado na variável vetor
         }
 
         for (int i = 0; i < 20; i++) {
