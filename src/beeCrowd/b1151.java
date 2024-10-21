@@ -9,18 +9,23 @@ public class b1151 {
 
         int N = sc.nextInt();
 
-        System.out.println(0);
-        System.out.println(1);
-        for (int i = 2; i <= N; i++) {
-            int fibonacci = (i-1)+(i-2);
-            if (fibonacci<0) {
-                System.out.println(1);
-            }
-            else {
-                System.out.println(fibonacci);
-            }
-        }
+        int primeiro = 0;
+        int segundo = 1;
 
+        if (N >= 1) {
+            System.out.print(primeiro);
+        }
+        if (N >= 2) {
+            System.out.print(" " + segundo);
+        }
+        for (int i = 2; i < N; i++) {
+            int proximo = primeiro + segundo;
+            System.out.print(" " + proximo);
+            primeiro = segundo;
+            segundo = proximo;
+        }
+        System.out.println();
         sc.close();
     }
 }
+

@@ -1,4 +1,4 @@
-package A_PROGRAMMING_LOGIC_AND_ALGORITHMS.estruturaCondicional;
+package A_ALGORITHMS_PROGRAMMING_LOGIC.estruturaCondicional;
 
 import java.util.Scanner;
 

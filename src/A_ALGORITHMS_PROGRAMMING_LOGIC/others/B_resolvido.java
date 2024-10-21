@@ -1,4 +1,4 @@
-package A_PROGRAMMING_LOGIC_AND_ALGORITHMS;
+package A_ALGORITHMS_PROGRAMMING_LOGIC.others;
 
 import java.util.Scanner;
 

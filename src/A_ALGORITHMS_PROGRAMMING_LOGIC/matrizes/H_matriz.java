@@ -1,4 +1,4 @@
-package A_PROGRAMMING_LOGIC_AND_ALGORITHMS.matrizes;
+package A_ALGORITHMS_PROGRAMMING_LOGIC.matrizes;
 
 import java.util.Locale;
 import java.util.Scanner;

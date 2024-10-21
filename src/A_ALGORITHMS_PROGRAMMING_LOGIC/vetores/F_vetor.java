@@ -1,5 +1,5 @@
 
-package A_PROGRAMMING_LOGIC_AND_ALGORITHMS.vetores;
+package A_ALGORITHMS_PROGRAMMING_LOGIC.vetores;
 
 
 import java.util.Scanner;
