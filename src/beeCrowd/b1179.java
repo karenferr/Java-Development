@@ -9,7 +9,7 @@ public class b1179 {
 
         int[] par = new int[5];
         int[] impar = new int[5];
-        // Índices controlam a quantidade de elementos nos vetores
+        // Índices controlam a quantidade de elementos nos ARRAY
         int parIndex = 0;
         int imparIndex = 0;
 

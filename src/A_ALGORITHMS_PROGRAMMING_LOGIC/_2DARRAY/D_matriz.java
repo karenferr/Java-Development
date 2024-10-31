@@ -1,4 +1,4 @@
-package A_ALGORITHMS_PROGRAMMING_LOGIC.matrizes;
+package A_ALGORITHMS_PROGRAMMING_LOGIC._2DARRAY;
 
 import java.util.Scanner;
 
