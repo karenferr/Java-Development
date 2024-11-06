@@ -2,29 +2,30 @@ package A_ALGORITHMS_PROGRAMMING_LOGIC.ARRAY;
 
 import java.util.Scanner;
 
-public class exercise1 {
-
+public class E_exercise5 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
         int N = sc.nextInt();
-        double[] vetor = new double[N];
+        int[]vetor = new int [N];
 
         for (int i = 0; i < N; i++) {
-            vetor[i] = sc.nextDouble();
+            vetor[i] = sc.nextInt();
         }
 
-        double maior = vetor[0];
-        int posicao = 0;
+        int soma = 0;
+        int contador = 0;
         for (int i = 0; i < N; i++) {
-            if (vetor[i]>maior) {
-                maior = vetor[i];
-                posicao = i;
+            if (vetor[i]%2==0) {
+                soma += vetor[i];
+                contador++;
             }
         }
-        System.out.println(maior);
-        System.out.println(posicao);
+
+        double media = soma / contador;
+
+        System.out.println(media);
         sc.close();
     }
 }

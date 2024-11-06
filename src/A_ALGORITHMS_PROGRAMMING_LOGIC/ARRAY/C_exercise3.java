@@ -2,7 +2,7 @@ package A_ALGORITHMS_PROGRAMMING_LOGIC.ARRAY;
 
 import java.util.Scanner;
 
-public class exercise3 {
+public class C_exercise3 {
 
     public static void main(String[] args) {
 
